@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/guild-vault-contributers",
+      "handler": "guild-vault-contributers.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/guild-vault-contributers/count",
+      "handler": "guild-vault-contributers.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/guild-vault-contributers/:id",
+      "handler": "guild-vault-contributers.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/guild-vault-contributers",
+      "handler": "guild-vault-contributers.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/guild-vault-contributers/:id",
+      "handler": "guild-vault-contributers.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/guild-vault-contributers/:id",
+      "handler": "guild-vault-contributers.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

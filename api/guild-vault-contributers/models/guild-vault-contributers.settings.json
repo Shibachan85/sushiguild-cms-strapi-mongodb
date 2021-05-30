@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "guild_vault_contributers",
+  "info": {
+    "name": "Guild-vault-contributers"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "gold": {
+      "type": "integer"
+    },
+    "isAchievement": {
+      "type": "boolean"
+    }
+  }
+}
