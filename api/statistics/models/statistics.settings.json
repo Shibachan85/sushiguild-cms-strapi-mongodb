@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "statistics",
+  "info": {
+    "name": "Statistics",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "breadClick": {
+      "type": "boolean"
+    },
+    "siteLoaded": {
+      "type": "boolean"
+    }
+  }
+}
