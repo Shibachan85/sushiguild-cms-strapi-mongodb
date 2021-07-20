@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/deathroll-statistics",
+      "handler": "deathroll-statistics.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/deathroll-statistics/count",
+      "handler": "deathroll-statistics.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/deathroll-statistics/:id",
+      "handler": "deathroll-statistics.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/deathroll-statistics",
+      "handler": "deathroll-statistics.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/deathroll-statistics/:id",
+      "handler": "deathroll-statistics.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/deathroll-statistics/:id",
+      "handler": "deathroll-statistics.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
