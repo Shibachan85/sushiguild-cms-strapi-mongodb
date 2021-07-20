@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "deathroll_statistics",
+  "info": {
+    "name": "DeathrollStatistics"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ikeWin": {
+      "type": "boolean"
+    }
+  }
+}
